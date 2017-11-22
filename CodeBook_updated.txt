@@ -1,8 +1,12 @@
-Feature Selection 
+Code Book
 =================
 Important Note to Reader:
 =========================
 ""This is an update on the Feature selection and Description provided in the original data in the file "features_info.txt". Updates to the original content are double quoted as with this text.""
+"" Each Record in the submitted tidy data set "mean_tidy_data.txt" has values for the following variables:
+1. subject_id : the number of the subject which ranges between 1 and 30.
+2. activity: a character string describing one of six possible activities.
+3. Selected features vector: this is a vector of numerical values for 79 variables representing the mean and standard deviation of each measurement in the original data set. The full list of variables in the submitted tidy data set is available in Variables_List.txt.""
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -59,6 +63,6 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-""In the submitted data set "mean_tidy_data.txt", only the mean "mean()" and standard deviation "std()" variables of each of the above listed measurements are selected. The complete list of variables/columns names in the submitted tidy data set is available in features_updated.txt. Please note the value for each variable in each record/row is the mean of that variable for a specific subject_id and activity label pair.""
+""In the submitted data set "mean_tidy_data.txt", only the mean "mean()" and standard deviation "std()" variables of each of the above listed measurements are selected. The complete list of variables/columns names in the submitted tidy data set is available in Variables_List.txt. Please note the value for each variable in each record/row is the mean of that variable for a specific subject_id and activity label pair.""
 
 The complete list of variables of each feature vector is available in 'features.txt'
